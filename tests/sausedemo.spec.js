@@ -17,7 +17,6 @@ test('Verify that the user can add  product and place an order', async ({ page }
 
 
     
-    
     await login.goto();
     await login.loginmethod('standard_user', 'secret_sauce');
     await productselect.selectproduct();
