@@ -15,6 +15,8 @@ test('Verify that the user can add  product and place an order', async ({ page }
     const logoutpage = new logout(page);
     const cartpage = new cart(page);
 
+
+    
     
     await login.goto();
     await login.loginmethod('standard_user', 'secret_sauce');
